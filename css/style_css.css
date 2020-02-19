@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+body {
+	overflow-x: hidden;	
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #000000;	
+}
+
+/*=======блоки=======*/
+
+.border_block {
+	margin-bottom: 25px;	
+	border: 1px solid #acacac;
+}
+
+.border_block:hover {
+	border: 1px solid #000;
+}
+
+.padding_block {
+	padding: 15px;
+}
+
+.blue_block {
+	margin-bottom: 25px;
+	background-color: #e8f9fe;
+	
+}
+
+.without_padding h2 {
+	margin: 15px 0px 15px 15px;
+}
+
+.without_padding .data_news {
+	margin-left: 15px;
+}
+
+.without_padding .list {
+	padding: 5px 15px 15px 15px;
+	/*padding: 0px 15px;*/
+}
+
+
+.without_padding .all_news {
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+/*=======заголовки=======*/
+
+h1 {
+	margin: 5px 0px 15px 0px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+
+h2 {
+	margin: 0px 0px 15px 0px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+
+
+/*=======ссылки=======*/
+a {
+	color: #000000;	
+}
+
+a:hover {
+	color: #000000;
+	
+}
+
+/*=======кнопка=======*/
+.red_button {
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 5px 20px;
+	background-color: #ff0004;
+	border: none;
+	color: #fff;
+}
+
+.red_button:hover {
+	background-color: #D55557;
+}
+
+/*=======текст=======*/
+.gray_text {
+	font-style: italic;
+	color: #acacac;
+}
+
+.green_text {
+	color: #195630;
+	font-weight: 900;
+}
+
+/*=======баннер=======*/
+
+.banner {
+	background-color: #edeffd;	
+}
+
+.banner_picture {
+	padding: 15px 56px;	
+}
+
+/*=======навигация=======*/
+nav {  
+    height: 40px;  
+    width: 100%;    
+    font-size: 16px;        
+    font-weight: 900;  
+    position: relative;  
+}  
+nav ul {  
+    padding: 0;  
+    margin: 0 auto;  
+    width: 600px;  
+    height: 40px;  
+}  
+
+nav li {  
+    display: inline;  
+    float: left;  
+}  
+
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+}  
+
+
+nav a {  
+    color: #000;  
+    display: inline-block;  
+    width: 100px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;    
+}  
+nav li a {  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+nav li:last-child a {  
+    border-right: 0;  
+}  
+nav a:hover, nav a:active {  
+    background-color: #8c99a4;  
+}  
+
+nav a#pull {  
+    display: none;  
+} 
+
+
+/*=======первая секция=======*/
+
+.first_section {
+	margin: 30px 0px;
+}
+
+
+
+
+/*=======последние новости=======*/
+
+
+
+.main_last_news a {
+	background-color: #e8f9fe;
+}
+
+/*=======персоны=======*/
+
+.person p {
+	margin-top: 10px;
+}
+
+
+/*=======мировые новости=======*/
+
+.world_news .list {
+	margin: 5px 0px 15px 0px;
+}
+
+.main_world_news a {
+	background-color: #e8f9fe;
+}
+
+/*=======выбор редакции=======*/
+
+/*.choice_redaction {
+	position: relative
+}
+
+.choice_redaction:before {
+	position: absolute; 
+	content: выбор редакции;
+	display: block;
+	background-color: #000000;
+}*/
+
+/*======спецпроекты=======*/
+.special_project_big_pic {
+	background-image: url(../pictures/special_progect.png);
+	background-repeat: no-repeat;
+}
+
+.special_project_big_pic h1 {
+	padding: 87px 0px 105px 15px;
+}
+
+
+/*=======вторая секция=======*/
+
+.second_section {
+	margin: 30px 0px;
+}
+
+/*=======аналитика=======*/
+
+.analitic p {
+	margin-top: 10px;
+}
+
+
+/*=======новости мероприятий=======*/
+.main_event_news a {
+	background-color: #e8f9fe;
+	}
+
+
+/*=======агро тв=======*/
+
+.agro_tv p {
+	margin-top: 10px;
+}
+
+
+
+/*=======подвал=======*/
+.footer {
+	padding: 15px;
+	background-color: #edeffd;
+}
